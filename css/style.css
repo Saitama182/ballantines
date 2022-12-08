@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background-image: url('../images/bg-img.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100% ;
+}
+
+.header {
+    padding-top: 46px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: 240px;
+}
+
+.logo {
+    margin-right: 34px;
+}
+.menu ul {
+    display: flex;
+}
+
+.menu li + li {
+    margin-left: 25px;
+}
+
+.menu a {
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.item {
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.title {
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 141px;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    width: 674px;
+    margin-bottom: 46px;
+}
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: left;
+}
+
+.slick-dots li+li {
+    margin-left: 20px;
+}
+
+.slick-dots button {
+    background: #FFFFFF;
+    font-size: 0;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
